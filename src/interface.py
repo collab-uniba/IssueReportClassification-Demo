@@ -1,3 +1,5 @@
+import gradio as gr
+
 class IssueClassifier:
     def __init__(self, models):
         self.models = models
