@@ -3,6 +3,8 @@ This repository contains an interface for Issue Report Classification Models.
 The interface allows users to input title and body of an issue report and receive a prediction of the category or type of issue report.
 You can also input a GitHub link to classify your issues.
 
+![img](img/interface.png)
+
 ## Requirements
 - Python3.8+
 - ``` pip install -r requirements.txt ```
@@ -16,7 +18,8 @@ The project contains the following files and folders:
 	* `preprocessing.py`: contains the code for preprocessing text data, using ekphrasis and regex.
 	* `utils.py`: contains utility functions used to retrieve the title and body of an issue from GitHub.
 	* `interface.py`: contains the code for the Gradio interface.
-    
+
+
 ## Cite
 ```
 @inproceedings{Colavito-2022,
