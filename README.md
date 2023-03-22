@@ -36,6 +36,16 @@ The project contains the following files and folders:
 ```
 
 ```
+@inproceedings{Colavito-2023,
+	title        = {Few-Shot Learning for Issue Report Classification},
+	author       = {Colavito, Giuseppe and Lanubile, Filippo and Novielli, Nicole},
+	year         = 2023,
+	booktitle    = {2nd International Workshop on Natural Language-Based Software Engineering (NLBSE)}
+}
+
+```
+
+```
 @dataset{colavito_dataset_2023,
 	title        = {Few-Shot Learning for Issue Report Classification},
 	author       = {Colavito, Giuseppe and Lanubile, Filippo and Novielli, Nicole},
