@@ -1,4 +1,5 @@
 import gradio as gr
+from utils import extract_github_issue
 
 class IssueClassifier:
     def __init__(self, models):
