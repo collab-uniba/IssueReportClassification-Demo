@@ -10,12 +10,12 @@ You can also input a GitHub link to classify your issues.
 ## Structure
 The project contains the following files and folders:
 
-  `src`: contains the source code for the interface and the machine learning models
-    `models.py`: contains the model wrappers used by the interface. 
-    `main.py`: runs the interface.
-    `preprocessing.py`: contains the code for preprocessing text data, using ekphrasis and regex.
-    `utils.py`: contains utility functions used to retrieve the title and body of an issue from GitHub.
-    `interface.py`: contains the code for the Gradio interface.
+- `src`: contains the source code for the interface and the machine learning models
+	* `models.py`: contains the model wrappers used by the interface.
+	* `main.py`: runs the interface.
+	* `preprocessing.py`: contains the code for preprocessing text data, using ekphrasis and regex.
+	* `utils.py`: contains utility functions used to retrieve the title and body of an issue from GitHub.
+	* `interface.py`: contains the code for the Gradio interface.
     
 ## Cite
 ```
