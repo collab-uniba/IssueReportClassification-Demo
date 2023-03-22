@@ -1,3 +1,5 @@
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from sentence_transformers.losses import CosineSimilarityLoss
 from setfit import SetFitModel
 from setfit import SetFitTrainer
