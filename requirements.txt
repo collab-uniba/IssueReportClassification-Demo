@@ -1,0 +1,8 @@
+gradio
+torch
+transformers
+ekphrasis
+PyGithub
+sentence-transformers
+numpy
+setfit
