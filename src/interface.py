@@ -2,7 +2,7 @@ import gradio as gr
 from utils import extract_github_issue
 
 class IssueClassifier:
-    def __init__(self, models):
+    def __init__(self, models, share=True):
         self.models = models
         self.model_dropdown = gr.components.Dropdown(choices=list(self.models.keys()), label="Model")
         self.input_choice = gr.components.Radio(choices=["Title and Body", "Link"], value='Title and Body', label="Input Type")
@@ -22,6 +22,9 @@ class IssueClassifier:
         
         # Set the theme
         self.theme = None
+
+        # Set the visibility of the interface
+        self.share = share
 
     # Define the function to change the visibility of textboxes
     def change_textboxes(self, choice):
@@ -67,6 +70,6 @@ class IssueClassifier:
             self.input_choice.change(self.change_textboxes, self.input_choice, [self.title_textbox, self.body_textbox, self.link_textbox])
 
             # Launch the interface
-            iface.launch(share=True)
+            iface.launch(share=self.share)
         
     
